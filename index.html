@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason Lai - Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #a2d1c0, #feb47b);
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 80px;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .profile-icon {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            border: 3px solid #4a90e2;
+        }
+        h1 {
+            font-size: 36px;
+            margin: 0;
+            color: #4a90e2;
+        }
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.9);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar a {
+            margin: 0 20px;
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            font-size: 18px;
+            padding: 10px 15px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+            transform: scale(1.05);
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 80px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            text-align: justify; /* Added justification for text alignment */
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+        h2 {
+            color: #4a90e2;
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 10px;
+            font-size: 28px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .project-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+            .navbar a {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <a href="#about">About Me</a>
+    <a href="#interests">Interests</a>
+    <a href="#internships">Internships</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<header>
+    <div class="header-content">
+        <img src="image/Myphoto.jpeg" alt="Your Photo" class="profile-icon">
+        <h1>Jason Lai</h1>
+    </div>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>As a final-year student majoring in Economics and Finance with an extended major in AI at The Hong Kong University of Science and Technology, I have developed a strong foundation in analytical thinking and problem-solving. My passion for finance began early in life, driven by a curiosity about how financial systems operate and their impact on society. I believe in leveraging data and technology to make informed decisions that can lead to sustainable growth.</p>
+    <p>I thrive in environments that challenge me to think critically and innovatively. My experiences in various internships have equipped me with practical skills in risk analysis and financial management, while also igniting my interest in technology.</p>
+</section>
+
+<section id="interests">
+    <h2>My Interests</h2>
+    <p>In my spare time, I relish the chance to delve into new ideas through coding, which empowers me to uncover valuable insights and optimise the efficiency of data analysis. I also take great pleasure in participating in competitions and projects, as they allow me to apply my skills in practical contexts while collaborating with like-minded individuals who share my passion.</p>
+    <p>Additionally, I am an avid runner. This pursuit not only helps me stay physically fit but also offers a chance to clear my mind and enhance my focus. I have a keen interest in local running events and challenges, which motivate me to push my limits and maintain a healthy lifestyle. I am excited to be joining my first event on 9 February 2025.</p>
+</section>
+
+<section id="internships">
+    <h2>Internship Experience</h2>
+    <h3>Summer Intern at HKMA</h3>
+    <p>During my time at the MA, I felt a sense of purpose as I delved into the world of fintech and regulatory technologies. It was thrilling to be part of a team that influences the financial landscape of Hong Kong. The collaborative environment fostered a sense of belonging, and I learned the value of teamwork and diverse perspectives in tackling complex challenges.</p>
+
+    <h3>Finance Intern at CMS International</h3>
+    <p>This internship was both challenging and rewarding, offering me valuable insights into the back-office operations of the financial markets. It deepened my understanding of the complexities involved in trade and compliance, while the demands of the role fostered resilience and highlighted the importance of meticulous attention to detail. This experience significantly enhanced my analytical skills and equipped me to address real-world scenarios with confidence.</p>
+
+    <h3>Actuarial Intern at Sun Life HK</h3>
+    <p>The internship was a transformative experience. Working with vast amounts of data for risk assessment was daunting at first, but it ultimately fueled my curiosity and eagerness to learn. I felt a deep sense of accomplishment when I contributed to meaningful analyses that could potentially impact policyholders' lives. This internship solidified my commitment to pursuing a career in risk management.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>I would love to connect! Feel free to reach out via email, connect with me on LinkedIn, or check out my projects on GitHub.</p>
+    <p>Email: <a href="mailto:lcsjason2003@gmail.com">lcsjason2003@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/jason-lai-0429ni">Jason Lai</a></p>
+    <p>GitHub: <a href="https://github.com/Jasoncslai">Jasoncslai</a></p>
+</section>
+
+<footer>
+    <p>© 2024 Jason Lai | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
